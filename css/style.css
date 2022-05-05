@@ -10,7 +10,6 @@ body {
     font-weight: 300;
     color: black;
     letter-spacing: 1.5px;
-    background-image: url("img/camera.jpg");
 }
 
 img {
@@ -22,8 +21,15 @@ img:hover {
     transition: 1s;
 }
 
-#center {
-    text-align: center;
+.main-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-photo {
+    max-width: 100%;
+    height: auto;
+    padding: 0 4px;
 }
 
 /* nav bar */
