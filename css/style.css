@@ -1,7 +1,7 @@
- /* header*/
- header {
-     padding-top: 4rem;
- }
+/* header*/
+header {
+    padding-top: 4rem;
+}
 
 /* body */
 
@@ -32,13 +32,14 @@ nav {
     color: black;
     background-color: white;
     letter-spacing: 1.5px;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-nav a:link, a:visited {
+nav a:link,
+a:visited {
     color: black;
     text-decoration: none;
     float: left;
@@ -52,12 +53,12 @@ nav a:hover {
     transition: .25s ease-out;
 }
 
- nav ul li {
-     list-style: none;
- }
+nav ul li {
+    list-style: none;
+}
 
 
- /* icons */
+/* icons */
 .material-icons-outlined {
     position: relative;
     top: 5px;
@@ -84,26 +85,27 @@ nav a:hover {
 
 @media screen and (max-width: 800px) {
     .photo-column {
-      flex: 50%;
-      max-width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
-  }
+}
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .photo-column {
-      flex: 100%;
-      max-width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
-  }
+}
 
 /* contact */
 
-.contact-info a:link, a:visited {
+.contact-info a:link,
+a:visited {
     color: black;
     text-decoration: none;
 }
 
-/* footer */ 
+/* footer */
 footer {
     display: flex;
     justify-content: center;
