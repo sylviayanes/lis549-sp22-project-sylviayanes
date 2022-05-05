@@ -13,7 +13,12 @@ body {
 }
 
 img {
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
 }
 
 #center {
@@ -50,6 +55,7 @@ nav a:hover {
  nav ul li {
      list-style: none;
  }
+
 
  /* icons */
 .material-icons-outlined {
