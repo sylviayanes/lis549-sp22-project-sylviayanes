@@ -1,11 +1,35 @@
+ /* header*/
+ header {
+     padding-top: 4rem;
+ }
+
+/* body */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+img {
+    filter: grayscale(100%)
+}
+
+#center {
+    text-align: center;
+}
+
 /* nav bar */
 nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     color: black;
+    background-color: white;
     letter-spacing: 1.5px;
     position: fixed; 
     top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -27,21 +51,10 @@ nav a:hover {
      list-style: none;
  }
 
- /* header*/
- header {
-     padding-top: 4rem;
- }
-
-/* body */
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: black;
-    letter-spacing: 1.5px;
-}
-
-img {
-    filter: grayscale(100%)
+ /* icons */
+.material-icons-outlined {
+    position: relative;
+    top: 5px;
 }
 
 /* photo grid */
