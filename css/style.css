@@ -14,6 +14,8 @@ body {
 
 img {
     filter: grayscale(100%);
+    max-width: 100%;
+    display: block;
 }
 
 img:hover {
@@ -105,4 +107,13 @@ a:visited {
 footer {
     display: flex;
     justify-content: center;
+}
+
+/* if breakpoints */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    
 }
