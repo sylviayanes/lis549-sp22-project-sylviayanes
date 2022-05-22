@@ -7,7 +7,8 @@
     <meta name="description" content="Portfolio of Photos">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Photos</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,34 +20,40 @@
 
 <body>
     <nav class="menu">
-        <ul>
-            <li><a href="index.html"><span class="material-icons-outlined">home</span>Home</a></li>
-            <li><a href="photos.html"><span class="material-icons-outlined">camera_alt</span>Photos</a></li>
-            <li><a href="about.html"><span class="material-icons-outlined">
-                        alternate_email
-                    </span></span>About Me</a></li>
-        </ul>
+        <div id="menu-icons">
+            <ul>
+                <li><a href="index.html"><span class="material-icons-outlined">home</span></a></li>
+                <li><a href="photos.html"><span class="material-icons-outlined">camera_alt</span></a></li>
+                <li><a href="about.html"><span class="material-icons-outlined">
+                            alternate_email
+                        </span></a></li>
+            </ul>
+        </div>
+        <div id="menu-words">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="about.html">Contact Me</a></li>
+            </ul>
+        </div>
     </nav>
-    <header>
-        <h1>Photos</h1>
-    </header>
+
     <main>
         <section>
-            <div class="photos">
-                <div class="photo-column">
-                    <img src="img/couple.JPG" alt="man and woman">
-                    <img src="img/altar.JPG" alt="wedding altar at beach">
-                    <img src="img/newborn.jpg" alt="newborn sleeping">
+            <div class="row">
+                <div class="column">
+                    <img class="img" src="img/couple.JPG" alt="man and woman">
+                    <img class="img" src="img/altar.JPG" alt="wedding altar at beach">
+                    <img class="img" src="img/newborn.jpg" alt="newborn sleeping">
                 </div>
-                <div class="photo-column">
-                    <img src="img/baptism.JPG" alt="man holding baby">
-                    <img src="img/mountain.JPG" alt="mountain">
-                    <img src="img/barn.jpg" alt="white barn">
+                <div id="column-2" class="column">
+                    <img class="img" src="img/baptism.JPG" alt="man holding baby">
+                    <img class="img" src="img/mountain.JPG" alt="mountain">
                 </div>
-                <div class="photo-column">
-                    <img src="img/wedding.JPG" alt="bride and groom">
-                    <img src="img/desert.JPG" alt="desert">
-                    <img src="img/temple.JPG" alt="greek temple by teh sea">
+                <div id="column-3" class="column column-3">
+                    <img class="img" src="img/wedding.JPG" alt="bride and groom">
+                    <img class="img" src="img/barn.jpg" alt="white barn">
+                    <img class="img" src="img/temple.JPG" alt="greek temple by teh sea">
                 </div>
             </div>
         </section>
