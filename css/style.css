@@ -1,6 +1,8 @@
 /* header*/
 header {
-    padding-top: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
 }
 
 /* body */
@@ -60,7 +62,7 @@ nav {
     margin: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.8);
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-    ;
+    text-transform: uppercase;
 }
 
 nav a:link,
