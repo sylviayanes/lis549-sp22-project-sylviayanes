@@ -7,7 +7,8 @@
     <meta name="description" content="Contact Me">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -38,40 +39,36 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <div class="center">
-            <h1>Contact Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ea vero aut id incidunt quod iste non
-                consectetur eligendi qui velit enim doloremque, natus dolorem adipisci, illum et aspernatur eveniet!</p>
-        </div>
-    </header>
     <main>
-        <div class="contact-info">
-            <p><a href="mailto:syanes@uw.edu"><span class="material-icons-outlined">email</span> syanes@uw.edu</a></p>
-            <p><a href="tel:305-928-4445"><span class="material-icons-outlined">phone</span> 305-928-4445</a></p>
+        <div class="row">
+        <div class="column center">
+            <h1>Contact Me</h1>
+            <p> I'd love to hear from you! I aim to answer all e-mails within normal business hours. Fill out the form or e-mail or call me at:
+            </p>
+            <p class="contact-me"><a href="mailto:syanes@uw.edu"><span class="material-icons-outlined">email</span> syanes@uw.edu</a></p>
+            <p class="contact-me"><a href="tel:305-928-4445"><span class="material-icons-outlined">phone</span> 305-928-4445</a></p>
+        </div>
+        <div class="column center">
+            <form>
+                <h1>Inquire</h1>
+                <div class="form-group">
+                    <input type="text" class="form-control text-uppercase" placeholder="your name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control text-uppercase" aria-describedby="emailHelp"
+                        placeholder="your email">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control text-uppercase" placeholder="your phone number">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control text-uppercase"
+                        placeholder="tell me more about what you need">
+                </div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
         </div>
     </main>
-    <form>
-        <h2>Inquire</h2>
-        <div class="form-group">
-            <label for="FirstName">First Name</label>
-            <input type="text" class="form-control" placeholder="First">
-          </div>
-          <div class="form-group">
-            <label for="LastName">Last Name</label>
-            <input type="text" class="form-control" placeholder="Last">
-          </div>
-          <div class="form-group">
-          <label for="EmailAddress">E-Mail Address</label>
-          <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="email@domain.com">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="PhoneNumber">Phone Number</label>
-            <input type="number" class="form-control" placeholder="(000) 000-0000">
-          </div>
-        <button type="submit" class="btn btn-light">Submit</button>
-      </form>
     <footer>&copy; Sylvia Yanes 2022
     </footer>
 </body>
