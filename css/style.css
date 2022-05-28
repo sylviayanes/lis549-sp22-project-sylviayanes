@@ -37,11 +37,13 @@ img {
     filter: grayscale(100%);
     max-width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 img:hover {
     filter: grayscale(0%);
     transition: 1s;
+    cursor: pointer;
 }
 
 h1, h2 {
@@ -182,6 +184,7 @@ nav ul li {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 992px) {
