@@ -52,6 +52,12 @@ h1, h2 {
     text-align: center;
 }
 
+#me {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
 /* body - medium screen */
 
 @media (min-width: 768px) {
