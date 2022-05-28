@@ -23,9 +23,10 @@ main {
     margin: 1rem;
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
     letter-spacing: 1.5px;
+    word-spacing: 2px;
 }
 
 img {
@@ -41,6 +42,10 @@ img:hover {
     cursor: pointer;
 }
 
+p {
+    margin: 0 auto;
+}
+
 .center {
     text-align: center;
 }
@@ -50,6 +55,7 @@ img:hover {
     display: block;
     margin: auto;
 }
+
 
 /* body - medium screen */
 
