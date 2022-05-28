@@ -16,15 +16,10 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 25px;
-    text-transform: uppercase;
-}
-
-
 /* body */
 
-body, main {
+body,
+main {
     margin: 1rem;
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
@@ -46,11 +41,7 @@ img:hover {
     cursor: pointer;
 }
 
-h1, h2 {
-    text-transform: uppercase;
-}
-
-.center{
+.center {
     text-align: center;
 }
 
@@ -194,6 +185,23 @@ nav ul li {
     }
 }
 
+/* modal */
+
+.modal-content {
+    background-color: #a0a0a0;
+    opacity: .95;
+    border-radius: 1rem;
+    border: none;
+}
+
+.modal-dialog,
+.modal-body,
+.modal-footer,
+.btn-close {
+    border: none;
+    border-style: none;
+}
+
 /* contact page */
 
 .contact-me a:link,
@@ -203,14 +211,8 @@ a:visited {
     text-align: center;
 }
 
-
 /* footer */
 footer {
     display: flex;
     justify-content: center;
 }
-
-/* DELETE  notes- if breakpoints */
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
