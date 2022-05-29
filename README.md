@@ -1,0 +1,2 @@
+Sylvia Yanes Portfolio
+I created this website as my final project for the Beginning Web Development course I am taking at the University of Washington during the Spring 2022 quarter. I am an amateur photographer who loves her Fujifilm camera and taking pictures of her friends and family, and I decided to make a portfolio of some of my favorite photos that I have taken. If I ever decide to turn my hobby into a side hustle, I intend to use this website as a starting point.
